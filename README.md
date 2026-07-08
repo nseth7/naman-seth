@@ -1,2 +1,0 @@
-# naman-seth
-Personal Website
