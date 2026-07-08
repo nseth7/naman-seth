@@ -48,7 +48,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 // Scroll reveal for sections
 (function () {
   var targets = document.querySelectorAll(
-    '.about-lead, .stat-list, .log-entry, .project-card, .publication, .contact-links'
+    '.about-lead, .stat-list, .log-entry, .education-block, .project-card, .publication, .passions-lead, .passions-grid, .contact-links'
   );
   targets.forEach(function (el) { el.classList.add('reveal'); });
 
