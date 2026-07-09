@@ -31,11 +31,10 @@
 <header class="hero" id="top">
   <div class="hero-inner">
     <div class="hero-text">
+      <h1>Naman Seth</h1>
       <p class="eyebrow">AI/ML Engineer, Virginia</p>
-      <h1>Naman</h1>
-      <p class="hero-sub">I build scalable ML and data systems, with 3+ years of experience deploying them in real world applications</p>
       <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#about" class="btn btn-primary">View profile</a>
         <a href="#contact" class="btn btn-ghost">Get in touch</a>
       </div>
     </div>
@@ -65,15 +64,16 @@
       <h2>Trained for ambiguity.</h2>
       <div class="about-grid">
         <p class="about-lead">
-          Three years building sensor pipelines and perception systems for autonomous vehicles at Torc Robotics,
-          plus a graduate assistantship applying agentic LLM systems to legal and financial reasoning.
-          I hold an M.S. in Computer Science and a B.S. in Mechanical Engineering from Virginia Tech, both
-          completed summa cum laude / 3.91 GPA.
+          Early in his career, Naman spent three years in the self driving industry building production grade ML and data systems. 
+          That work opened the door to a Master's in Computer Science at Virginia Tech, where he was awarded a scholarship to advance AI initiatives and appointed 
+          as an AI Engineer to the Finance Division. In that role, he applied his expertise to build agentic contract analysis systems powered by LLMs and NLP.
+
+        His specialty lies at the intersection of production ML systems and applied AI, turning research grade models into infrastructure that holds up at scale.
         </p>
         <ul class="stat-list">
-          <li><span class="stat-num">3</span><span class="stat-label">years in production AV / ML</span></li>
-          <li><span class="stat-num">2</span><span class="stat-label">VT degrees, 3.91 GPA</span></li>
-          <li><span class="stat-num">1</span><span class="stat-label">IEEE RoboSoft publication</span></li>
+          <li><span class="stat-num">3</span><span class="stat-label">years in production Applied ML and Autonomous Vehicles</span></li>
+          <li><span class="stat-num">1.5</span><span class="stat-label">years in LLM and Agentic AI</span></li>
+          <li><span class="stat-num">1</span><span class="stat-label">IEEE ML Research publication</span></li>
         </ul>
       </div>
     </div>
@@ -85,30 +85,43 @@
       <div class="log">
 
         <div class="log-entry">
-          <div class="log-meta">
-            <span class="log-time">Jan 2025 — May 2026</span>
-            <span class="log-tag">VIRGINIA TECH</span>
-          </div>
-          <div class="log-body">
-            <h3>AI Engineer</h3>
-            <p>The connecting thread across every role below: applying machine learning to production
-            systems, applied research, and quantitative problems — from autonomous vehicles to graduate
-            research to markets.</p>
-          </div>
+        <div class="log-meta">
+          <span class="log-time">Jan 2025 — May 2026</span>
+          <span class="log-tag">VIRGINIA TECH</span>
         </div>
+        <div class="log-body">
+          <h3>AI Engineer</h3>
+          <ul class="log-details">
+            <li>Awarded $90,000 graduate assistantship to build production grade AI systems for financial and legal intelligence</li>
+            <li>Reduced contract review from 30 minutes to seconds and eliminated manual analyst workflows by deploying a RAG powered
+              agentic legal reasoning system on Azure via FastAPI, replacing traditional processes with AI assisted document intelligence</li>
+            <li>Architected a Natural Language Processing (NLP) and Retrieval Augmented Generation (RAG) pipeline over 2,000+ documents
+              using OpenAI LLM and vector embeddings, extracting contractual clauses, obligations, and risks with citation grounded
+                answers and live PDF source rendering</li>
+            <li>Built an interactive Streamlit chat UI enabling real time document Q&A, in app PDF page rendering, and exportable AI
+                generated summaries with full source traceability, integrated with SharePoint via REST API for enterprise team access</li>
+          </ul>
+        </div>
+      </div>
 
         <div class="log-entry">
           <div class="log-meta">
             <span class="log-time">May 2022 — Dec 2024</span>
-            <span class="log-tag">TORC ROBOTICS · FULL-TIME</span>
+            <span class="log-tag">TORC ROBOTICS <br> FULL TIME</span>
             <span class="log-time">Summer 2025</span>
-            <span class="log-tag">TORC ROBOTICS · GRADUATE INTERN</span>
+            <span class="log-tag">TORC ROBOTICS <br> GRADUATE INTERN</span>
           </div>
           <div class="log-body">
             <h3>Machine Learning Engineer</h3>
-            <p>Built and maintained sensor pipelines and multimodal data systems for autonomous vehicle
-            perception, working across data acquisition, curation, and model deployment for production AV
-            stacks at petabyte scale. <span class="fill-me">[add a specific system you owned or a metric you moved]</span>.</p>
+            <ul class="log-details">
+            <li>Reduced manual log review time by 80% by building an end to end classification and auto labelling pipeline using XGBoost on
+              multimodal sensor streams (Camera, LiDAR, Radar, CAN bus) across 1,000+ TB of on road and software release data</li>
+            <li>Deployed pipeline to AWS (S3, Lambda, ECS) with feature engineering including time series alignment, temporal windowing,
+                and multimodal fusion; validated model updates via A/B testing</li>
+            <li>Expanded test coverage by auto triggering scenario test suites on new detections, covering 50+ real world edge cases</li>
+            <li>Reduced failure triage to 1 day and increased anomaly detection by 40% by building diagnostic dashboards using Docker,
+                ROS, and AWS, tracking lane keeping, ACC events, and system failures across 100+ hrs/week of autonomous vehicle test runs</li>
+                </ul>
           </div>
         </div>
   </section>
@@ -123,29 +136,31 @@
             <span class="log-time">Jan 2025 — May 2026</span>
             <h3>Master's of Engineering Computer Science, Virginia Tech</h3>
           </div>
+          <p class="education-sub">Specialization: AI/ML |  3.91/4.00 GPA</p>
           <ul class="education-positions">
+          <li>
+              <span class="position-tag">CAPSTONE</span>
+              <div class="position-body">
+                <h4>U.S. Secret Service: Multimodal Drone Detection</h4>     
+                <p>ML drone detection pipeline leveraging Audio CRNN and RF DETR to identify and track drones in urban environments. See <a href="#projects">Research and Projects</a> for details.</p>
+              </div>
+            </li>
+
+              
+            </li>
             <li>
               <span class="position-tag">RESEARCH</span>
               <div class="position-body">
-                <h4>Regime-Aware Transformer</h4>
-                <p>Cross-sectional equity return prediction with IC loss and regime conditioning via FiLM.
-                See <a href="#projects">Selected work</a> for details.</p>
-              </div>
-            </li>
-            <li>
-              <span class="position-tag">CAPSTONE</span>
-              <div class="position-body">
-                <h4>U.S. Secret Service: Multimodal Drone Detection</h4>
-                <p>Capstone project fusing audio and optical detection for drone identification. See
-                <a href="#projects">Selected work</a> for details.</p>
+                <h4>Regime Aware Transformer</h4>
+                <p> Designed a transformer based model for cross sectional return ranking, achieving a 2.35 Sharpe ratio net of 20 bps transaction costs using Information Coefficient loss.
+                See <a href="#projects">Research and Projects</a> for details.</p>
               </div>
             </li>
             <li>
               <span class="position-tag">RESEARCH</span>
               <div class="position-body">
                 <h4>ML Research</h4>
-                <p>Graduate research applying ML methods to bio-inspired "bat robot" flight and sensing
-                systems. <span class="fill-me">[add a line or two on the bat robot research]</span></p>
+                <p> Built and evaluated CNN/RNN networks and clustering algorithms (DBSCAN, k-means) for autonomous navigation tasks</p>
               </div>
             </li>
           </ul>
@@ -154,16 +169,15 @@
         <div class="education-block">
           <div class="education-head">
             <span class="log-time">2017 — 2021</span>
-            <h3>Bachelors of Science, Mechanical Engineering, Virginia Tech</h3>
+            <h3>Bachelors, Mechanical Engineering, Virginia Tech</h3>
           </div>
-          <p class="education-sub">Summa Cum Laude, 3.91 GPA</p>
+          <p class="education-sub">Summa Cum Laude | 3.91/4.00 GPA</p>
           <ul class="education-positions">
             <li>
               <span class="position-tag">RESEARCH</span>
               <div class="position-body">
                 <h4>ML Research</h4>
-                <p>Undergraduate research applying machine learning methods to
-                <span class="fill-me">[add a line on your undergrad ML research]</span>.</p>
+                <p> Published ML research. See <a href="#projects">Research and Projects</a> for details.</p></p>
               </div>
             </li>
           </ul>
@@ -180,47 +194,46 @@
 
     
       <h2>Research and Projects</h2>
+      <article class="project-card">
 
-      <div class="publication">
-        <h3>PUBLICATION</h3>
-        <a href="https://arxiv.org/abs/2111.04542">IEEE RoboSoft: Wrapped Haptic Display for Communicating Physical Robot Learning</a>
-      </div>
+        <h3>PUBLICATION: IEEE (Robosoft 2021)</h3>
+        <p>Built a behavior cloning pipeline using DAgger (Bayesian ensemble uncertainty estimation) to quantify a 
+          robot's per state learning confidence in real time, translating it into haptic feedback for human teachers</p>
+        <a href="https://arxiv.org/abs/2111.04542" class="project-link" target="_blank" rel="noopener">View paper</a>
 
+      </article>
+      <br>
       <div class="project-grid">
         
 
         <article class="project-card">
           <div class="project-card-head">
-            <span class="project-index">01</span>
-            <span class="project-status">PRODUCTION-QUALITY</span>
           </div>
-          <h3>Regime-Aware Transformer</h3>
-          <p>A production-grade Python package for cross-sectional equity return prediction. Uses IC loss,
+          <h3>Regime Aware Transformer</h3>
+          <p>A production grade ML model for cross sectional equity return prediction. Uses IC loss,
           regime conditioning via FiLM, and feature gating, with full CLI workflows and pytest coverage.
-          Strongest backtest configuration (21-day rebalance) reaches a net Sharpe of roughly 2.35–2.6
+          Strongest backtest configuration (21-day rebalance) reaches a net Sharpe of roughly 2.35
           after 20bps costs.</p>
           <div class="project-tags">
             <span>PyTorch</span><span>Time Series</span><span>Quant Research</span>
           </div>
           <a href="https://github.com/nseth7/regime-aware-transformer" class="project-link" target="_blank" rel="noopener">
-            View repository →
+            View repository
           </a>
         </article>
 
         <article class="project-card">
           <div class="project-card-head">
-            <span class="project-index">02</span>
-            <span class="project-status">RESEARCH → DEPLOYMENT</span>
           </div>
-          <h3>Multi-Modal Drone Detection</h3>
-          <p>Research-to-deployment system fusing an audio CRNN (0.998 ROC-AUC, 0.952 F1) with an RF-DETR
+          <h3>Multimodal Drone Detection</h3>
+          <p>Research to deployment system fusing an audio CRNN (0.998 ROC-AUC, 0.952 F1) with an RF DETR
           optical detector. Optimized for edge inference via TFLite / ONNX / TensorRT, served through a
           FastAPI layer.</p>
           <div class="project-tags">
             <span>Sensor Fusion</span><span>Edge Deployment</span><span>FastAPI</span>
           </div>
           <a href="https://github.com/nseth7/multi-modal-drone-detection" class="project-link" target="_blank" rel="noopener">
-            View repository →
+            View repository
           </a>
         </article>
 
@@ -237,8 +250,8 @@
     <div class="passion-row">
       <div class="passion-copy">
         <p class="passions-lead">
-          FAA Private Pilot: I’m drawn to aviation because it rewards preparation,
-          precision, and composure when conditions change faster than you’d like.
+          FAA Private Pilot: I am drawn to aviation because it rewards preparation,
+          precision, and composure when conditions change faster than you would like.
         </p>
       </div>
 
@@ -251,9 +264,8 @@
 
   <section class="section" id="contact">
     <div class="section-inner contact-inner">
-      <p class="eyebrow">CONTACT</p>
       <h2>Let's talk.</h2>
-      <p class="contact-lead">Open to ML engineering, applied research, and perception roles. Reach out directly.</p>
+      <p class="contact-lead">Open to AI/ML and Applied Research roles</p>
       <div class="contact-links">
         <a href="mailto:namanseth7@gmail.com">EMAIL</a>
         <a href="https://github.com/nseth7" target="_blank" rel="noopener">GITHUB</a>
@@ -265,7 +277,7 @@
 </main>
 
 <footer class="footer">
-  <p>© <span id="year"></span> Naman. Built and deployed on GitHub Pages.</p>
+  <p>© <span id="year"></span> Naman Seth. Built and deployed on GitHub Pages.</p>
 </footer>
 
 <script src="script.js"></script>
