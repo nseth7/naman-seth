@@ -92,14 +92,13 @@
         <div class="log-body">
           <h3>AI Engineer</h3>
           <ul class="log-details">
-            <li>Awarded $90,000 graduate assistantship to build production grade AI systems for financial and legal intelligence</li>
-            <li>Reduced contract review from 30 minutes to seconds and eliminated manual analyst workflows by deploying a RAG powered
-              agentic legal reasoning system on Azure via FastAPI, replacing traditional processes with AI assisted document intelligence</li>
-            <li>Architected a Natural Language Processing (NLP) and Retrieval Augmented Generation (RAG) pipeline over 2,000+ documents
-              using OpenAI LLM and vector embeddings, extracting contractual clauses, obligations, and risks with citation grounded
-                answers and live PDF source rendering</li>
-            <li>Built an interactive Streamlit chat UI enabling real time document Q&A, in app PDF page rendering, and exportable AI
-                generated summaries with full source traceability, integrated with SharePoint via REST API for enterprise team access</li>
+            <li>Built a RAG contract intelligence platform using hybrid retrieval, LLM reasoning, and clause level citation grounding, cutting contract review time from 30 minutes to under a minute</li>
+<li>Engineered clause aware PDF chunking strategy across 2,000+ contract documents, enabling retrieval and citation at exact clause and page granularity</li>
+<li> hybrid retrieval (FAISS and BM25) combining vector similarity and lexical search to boost recall on exact contractual language, legal entities, and payment terms</li>
+<li>Designed an LLM as judge grounding verification pass, using an isolated model call validating each cited claim against its source chunk to catch unsupported citations and reduce hallucination rate</li>
+<li>Built a configurable LLM and embedding layer supporting Llama, OpenAI, and sentence transformers for interchangeable model inference and vector embedding generation</li>
+<li>Deployed a FastAPI and Streamlit app to Azure Container Apps with SharePoint REST API ingestion and an in app PDF viewer linking answers to source clauses</li>
+
           </ul>
         </div>
       </div>
